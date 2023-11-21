@@ -1,0 +1,5 @@
+<h3>Run Server</h3>
+go run ./cmd/sso --config=./config/config_local.yaml
+
+<h3>Run Tests</h3>
+go test ./tests -count=1 -v
